@@ -16,10 +16,7 @@ def is_strong(p):
 
 # At least 8 characters long
 def pass_length(p):
-    if len(p) >= 8:
-        return True
-    else:
-        return False
+    return len(p) >= 8
 
 # Contains at least one digit
 def at_least_one_digit(p):
